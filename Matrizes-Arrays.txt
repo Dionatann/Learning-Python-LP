@@ -1,0 +1,40 @@
+							Array(matriz) é uma variável especial, que pode conter mais de um valor por vez.
+
+Uma matriz pode conter muitos valores em um único nome e você pode acessar os valores referindo-se a um número de índice.
+
+>>> matrizCar = ["BMW", "Volvo", "Ferrari"]
+
+Adicionar um item a matriz
+>>> matrizCar.append("Honda")
+["BMW", "Volvo", "Ferrari", "Honda"]
+
+
+Remover um item da matriz
+>>> matrizCar.pop(1)
+["BMW", "Ferrari", "Honda"]
+
+
+Métodos de matriz
+Python tem um conjunto de métodos embutidos que você pode usar em listas/matrizes.
+
+append()	Adiciona um elemento no final da lista
+
+clear()		Remove todos os elementos da lista
+
+copy()		Returns a copy of the list
+
+count()		Retorna o número de elementos com o valor especificado
+
+extend()	Add the elements of a list (or any iterable), to the end of the current list
+
+index()		Returns the index of the first element with the specified value
+
+insert()	Adds an element at the specified position
+
+pop()		Removes the element at the specified position
+
+remove()	Removes the first item with the specified value
+
+reverse()	Inverte a ordem da lis
+
+sort()		Classifica a list

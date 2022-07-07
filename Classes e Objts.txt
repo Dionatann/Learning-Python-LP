@@ -1,0 +1,38 @@
+			
+					POO
+
+			Classes, Objetos, Métodos e Atributos
+
+
+		Esses conceitos são os pilares da Programação Orientada a Objetos:
+
+	1.Classes são tipos de dados definidos pelo desenvolvedor que atuam como um modelo para objetos.
+
+	2.Atributos são definidos na Classe e representam o estado de um objeto. Os objetos terão dados armazenados nos campos de atributos.
+
+	3.Métodos são funções definidas dentro de uma classe que descreve os comportamentos de um objeto. Em Python, o primeiro parâmetro dos métodos é sempre uma referência ao próprio objeto.
+
+	4.Objetos são instâncias de uma Classe. Objetos podem modelar entidades do mundo real (Carro, Pessoa, Usuário) ou entidades abstratas (Temperatura, Umidade, Medição, Configuração).
+
+	
+	Encapsular é agregar todos os atributos e comportamentos referentes à essa Entidade dentro de sua Classe.
+	
+	Example: class Carro():
+		   cor = "azul"
+		   velTotal = 200
+		   tamanho = 1,76
+	 
+		   def acelerar:
+		
+		   def parar:
+	
+		
+	 Herança é a característica da POO que possibilita a reutilização de código comum em uma relação de hierarquia entre Classes.
+	 Example:    
+				AUTOMÓVEL
+		Carro, Caminhão          Caminhote, Moto
+
+	Dessa forma podemos modelar os comportamentos semelhantes em uma Classe “pai” Automóvel que conterá os atributos e comportamentos comuns.
+	Através da Herança, as Classes filhas de Automóvel vão herdar esses atributos e comportamentos!
+
+	Polimorfismo

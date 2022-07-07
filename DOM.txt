@@ -1,0 +1,46 @@
+Manipulacao do DOM
+
+Document object model
+
+O HTML DOM é um modelo de objeto padrão e uma interface de programação para HTML. Ele define:
+
+Os elementos HTML como objetos
+As propriedades de todos os elementos HTML
+Os métodos para acessar todos os elementos HTML
+Os eventos para todos os elementos HTML
+Em outras palavras: O HTML DOM é um padrão de como obter, alterar, adicionar ou excluir elementos HTML.
+
+
+Com o modelo de objeto, o JavaScript obtém todo o poder necessário para criar HTML dinâmico:
+
+JavaScript pode alterar todos os elementos HTML na página
+JavaScript pode alterar todos os atributos HTML na página
+JavaScript pode alterar todos os estilos CSS na página
+JavaScript pode remover elementos e atributos HTML existentes
+JavaScript pode adicionar novos elementos e atributos HTML
+JavaScript pode reagir a todos os eventos HTML existentes na página
+JavaScript pode criar novos eventos HTML na página
+
+Encontrando elementos
+
+Method	                                Description
+document.getElementById(id)	        Find an element by element id
+document.getElementsByTagName(name)	Find elements by tag name
+document.getElementsByClassName(name)	Find elements by class name
+
+Alternado elementos
+
+element.innerHTML =  new html content	Change the inner HTML of an element
+element.attribute = new value	        Change the attribute value of an HTML element
+element.style.property = new style	Change the style of an HTML element
+element.setAttribute(attribute, value)	Change the attribute value of an HTML element
+
+
+Adicionado e excluindo elementos
+
+Method	Description
+document.createElement(element)	Create an HTML element
+document.removeChild(element)	Remove an HTML element
+document.appendChild(element)	Add an HTML element
+document.replaceChild(new, old)	Replace an HTML element
+document.write(text)	Write into the HTML output stream

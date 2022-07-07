@@ -1,0 +1,37 @@
+			Palavras Chaves
+Python tem um conjunto de palavras-chave que são palavras reservadas que não podem ser usadas como nomes de variáveis, nomes de funções ou quaisquer outros identificadores:
+
+
+and	Um operador logico
+as	To create an alias
+assert	For debugging
+break	Para um Loop
+class	define uma classe
+continue	continue o loop
+def	define a função
+del	deleta um objeto
+elif	Usado em instruções condicionais, igual a else if
+else	Usado em instruções condicionais
+except	Usado com exceções, o que fazer quando ocorre uma exceção
+False	Boolean value, result of comparison operations
+finally	Usado com exceções, o que fazer quando ocorre uma exceção
+for	Cria um loop for
+from	importa partes especificas de um modulo
+global	Para declarar um variavel Global
+if	To make a conditional statement
+import	To import a module
+in	To check if a value is present in a list, tuple, etc.
+is	To test if two variables are equal
+lambda	To create an anonymous function
+None	Represents a null value
+nonlocal	To declare a non-local variable
+not	Operador logico
+or	Operador logico
+pass	A null statement, a statement that will do nothing
+raise	para levantar uma exceção
+return	Para sair de uma função e retorna um value
+True	Boolean value, result of comparison operations
+try	To make a try...except statement
+while	Cria um loop While
+with	Used to simplify exception handling
+yield	To end a function, returns a generator

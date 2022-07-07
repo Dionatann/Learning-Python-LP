@@ -1,0 +1,20 @@
+Um loop FOR é usado para iterar sobre uma sequência (que é uma list, uma tuple, um dictionary, um set ou uma string).
+
+>>> fruits = ["apple", "banana", "orange"]
+>>> for x in fruits:
+>>>   print(x)
+>>>   if x == "banana":
+>>>      break
+
+>>> fruits = ["apple", "banana", "cherry"]
+>>> for x in fruits:
+>>>   if x == "banana":
+>>>      continue
+>>>   print(x)
+
+
+Imprima todos os números de 0 a 5 e imprima uma mensagem quando o loop terminar:
+>>> for x in range(6):
+>>>   print(x)
+>>> else:
+>>>  print("Finally finished!") 

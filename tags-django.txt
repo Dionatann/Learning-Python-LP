@@ -1,0 +1,50 @@
+			tags de template no django
+
+autoescape  Especifica se o modo de escape automático está ativado ou desativado
+
+block - bloco de uma section
+
+comment - comentario de section	
+
+csrf_token - Proteção de formulario de Cross Site Request Forgeries
+
+cycle	Specifies content to use in each cycle of a loop
+
+debug	Specifies debugging information
+
+extends - extende um template(template-pai)
+
+filter - Filters content before returning it
+
+firstof	Returns the first not empty variable
+
+for	Specifies a for loop
+
+if	Specifies a if statement
+
+ifchanged	Used in for loops. Outputs a block only if a value has 
+changed since the last iteration
+
+include	Specifies included content/template
+
+load	Loads template tags from another library
+
+lorem	Outputs random text
+
+now	Outputs the current date/time
+
+regroup	Sorts an object by a group
+
+resetcycle	Used in cycles. Resets the cycle
+
+spaceless	Removes whitespace between HTML tags
+
+templatetag	Outputs a specified template tag
+
+url	Returns the absolute URL part of a URL
+
+verbatim	Specifies contents that should not be rendered by the template engine
+
+widthratio	Calculates a width value based on the ration between a given value and a max value
+
+with	Specifies a variable to use in the block

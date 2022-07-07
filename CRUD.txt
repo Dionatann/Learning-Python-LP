@@ -1,0 +1,9 @@
+				CRUD
+
+Criar - cria ou adiciona novas entradas em uma tabela no banco de dados.
+
+Recuperar - ler, recuperar, pesquisar ou visualizar as entradas existentes como uma lista (Visualização de lista) ou recuperar uma entrada específica em detalhes (Visualização de detalhes)
+
+Atualizar - atualizar ou editar as entradas existentes em uma tabela no banco de dados
+
+Excluir - excluir, desativar ou remover entradas existentes em uma tabela no banco de dados

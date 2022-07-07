@@ -1,0 +1,37 @@
+django conexão com banco de dados config(mysql):
+
+-pip install mysqlclient (comando usado para baixar (client Myslq), para interagir com banco de dados usando python)
+
+Conexão:
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql', 
+        'NAME': 'databaseName',
+        'USER': 'databaseUser',
+        'PASSWORD': 'databasePassword',
+        'HOST': 'localhost',
+        'PORT': 'portNumber',
+    }
+}
+
+
+1- NAME	- Esta chave armazena o nome do seu banco de dados MySQL.
+
+2- USER	- Esta chave armazena o nome de usuário da sua conta MySQL, usando a qual o banco de dados MySQL será conectado.
+
+3- PASSWOR - Esta chave armazena a senha dessa conta MySQL.
+
+4- HOST	- Esta chave armazena o endereço IP no qual seu banco de dados MySQL está hospedado.
+
+5- PORT	- Esta chave armazena o número da porta na qual seu banco de dados MySQL está hospedado.
+
+Por último, faça as migrações necessárias usando python manage.py makemigrations e python manage.py migrate para completar a configuração.
+
+comandos 
+
+py manage.py reset     - Reseta o banco de dados
+
+functions
+
+save()  - Salva dados no banco de dados

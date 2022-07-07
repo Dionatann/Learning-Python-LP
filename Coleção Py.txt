@@ -1,0 +1,35 @@
+		Coleções Python (matrizes)
+
+Existem quatro tipos de dados de coleção na linguagem de programação Python:
+
+
+
+- List é uma coleção que é ordenada e mutável. Permite membros duplicados. (MUTÁVEL)
+
+				list1 = [1, 2, 3, 4]
+
+
+
+- Tuple é uma coleção ordenada e imutável. Permite membros duplicados. (IMUTÁVEL)
+
+				tuple1 = (1, 2, 3, 4)
+
+
+
+- Set é uma coleção não ordenada, imutável* e não indexada. Nenhum membro duplicado( valores duplicados serao ignorados ). (IMUTÁVEL)
+
+				myset = {1, 2, 3, 4}
+
+Após criado, apenas é permitido adicionar e remover items.
+
+S
+
+
+- Dictionary é uma coleção ordenada** e mutável. Nenhum membro duplicado.
+				dictionary = {
+				   "marca" = "Ford",
+				   "modelo" = "Mustang",		
+				   "ano" = 1994
+				   }
+
+- Os dicionários são usados ​​para armazenar valores de dados em pares chave:valor.

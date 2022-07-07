@@ -1,0 +1,28 @@
+Campo de modelo	                             Campo de formulário
+                           		
+AutoField	                             Não é representado no formulário
+BooleanField	                             BooleanField
+CharField	                             CharField com max_length igual ao valor de max_length do campo do modelo
+CommaSeparatedIntegerField	             CharField
+DateField	                             DateField
+DateTimeField	                             DateTimeField
+DecimalField	                             DecimalField
+EmailField	                             EmailField
+FileField	                             FileField
+FilePathField	                             CharField
+FloatField	                             FloatField
+ForeignKey	                             ModelChoiceField (veja abaixo)
+ImageField	                             ImageField
+IntegerField	                             IntegerField
+IPAddressField	                             IPAddressField
+ManyToManyField	                             ModelMultipleChoiceField (veja abaixo)
+NullBooleanField	                     CharField
+PhoneNumberField	                     USPhoneNumberField (de django.contrib.localflavor.us)
+PositiveIntegerField	                     IntegerField
+PositiveSmallIntegerField	             IntegerField
+SlugField	                             CharField
+SmallIntegerField	                     IntegerField
+TextField	                             CharField com widget=forms.Textarea
+TimeField	                             TimeField
+URLField	                             URLField com verify_exists igual ao valor de verify_exists do campo do modelo
+XMLField	                             CharField com widget=Textarea
